@@ -1,18 +1,27 @@
 /* to be uploaded to Wordpress styles */
 
+
+/* temporarily hide maxblack for band page */
+.page-id-21246{
+  header, footer{
+    display: none;
+  }
+}
+
+
+
+
+
 /* remove default padding at top of content */
 .container_inner{
   padding-top: 0 !important;
 }
-
 header.centered_logo .q_logo a{
   height: 180px !important;
 }
-
 .max-header-wrapper{
   height: 450px;
 }
-
 .max-header-title{
   text-align: center;
 }
@@ -24,8 +33,110 @@ header.centered_logo .q_logo a{
   padding: 6px;
   background-color: rgba(255,255,255,0.8);
 }
-
 .max-header-socials{
   margin-top: 40px;
   text-align: center;
+}
+
+/* Band Page (Monowhales) */
+.max-media-feature{
+  margin-top: 10px;
+}
+.max-media-feature{
+  .vc_col-sm-6{
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.max-bandtabs-contact{
+  position: absolute !important;
+  top: 15px;
+  right: 15px;
+  color: black;
+  font-size: 14px
+}
+.max-bandtabs-contact p{
+  margin-top: 0;
+}
+.max-tabs{
+
+}
+.max-tabs .q_tabs .tabs-nav{
+  width: 100%;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #cd2a19;
+}
+
+.max-tabs .q_tabs .tabs-nav li{
+  margin-right: 0;
+}
+
+.max-tabs .q_tabs .tabs-nav li a{
+  padding: 0 50px;
+  background-color: transparent;
+  color: #2c2c2c;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.max-tabs .q_tabs .tabs-nav li.active a{
+  background-color: #cd2a19;
+  color: white;
+}
+
+.max-tabs .q_tabs .tabs-nav li.active:hover a{
+  cursor: default;
+  background-color: #cd2a19;
+  color: white;
+}
+
+.max-tabs .q_tabs .tabs-nav li:hover a{
+  background-color: #dddddd;
+}
+
+.max-merchandise-image{
+  float: left;
+}
+.max-merchandise-info{
+  float: left;
+}
+
+.max-input-list{
+
+}
+
+.max-band-event{
+
+}
+.max-band-event p{
+  margin-top: 16px;
+  line-height: 20px;
+}
+
+.max-band-press{
+  .vc_custom_1419240516480{
+    background: transparent !important;
+    border: 1px solid #dddddd;
+  }
+  .vc_gitem_row .vc_gitem-col{
+    padding: 20px 20px 0 20px !important;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+  }
+}
+
+@media only screen and (min-width:768px){
+  /* remove padding on full width sections */
+  .non-padded .vc_col-sm-12{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .max-band-leftcolumn{
+    padding-right: 50px;
+  }
+  .max-band-rightcolumn{
+    padding-left: 50px;
+  }
 }
